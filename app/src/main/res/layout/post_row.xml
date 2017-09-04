@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/post_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/post_initiator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:background="@color/colorAccent"
+                    android:padding="15dp"
+                    android:text="Someone added the post at: 1/1/2016"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/post_options_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="0.1"
+                    android:background="@color/colorAccent"
+                    android:padding="10dp"
+                    android:src="@mipmap/ic_expand_more_white_24dp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/post_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/add_btn" />
+
+            <TextView
+                android:id="@+id/post_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Content Goes here"
+                android:textColor="@color/colorAccent"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/post_comment_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@mipmap/ic_comment_white_24dp"
+                android:padding="10dp"
+                android:text="Comment"
+                android:textColor="@color/colorWhite" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_comment_layout"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/post_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:hint="Write a comment ..."
+                    android:inputType="textMultiLine"
+                    android:padding="15dp"
+                    android:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/postCommentSubmitBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/colorAccent"
+                    android:padding="5dp"
+                    android:src="@mipmap/ic_comment_white_24dp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/post_comments_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"></ListView>
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.v7.widget.CardView>
+

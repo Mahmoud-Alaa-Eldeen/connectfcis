@@ -1,0 +1,547 @@
+<resources>
+    <string name="select_pictureone">Select Picture</string>
+    <string name="serverIp">192.168.1.9</string>>
+    <string name="app_name">ConnectFCIS</string>
+    <string name="username">Username ...</string>
+    <string name="password">Password ...</string>
+    <string name="forget_password">Forget your password?</string>
+    <string name="skip">Skip for now.</string>
+    <string name="register">Not a member? Get registered now!</string>
+    <string name="register_btn">Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="f_name">First name</string>
+    <string name="l_name">Last name</string>
+    <string name="email">E-mail</string>
+    <string name="select_password">Password</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="user_types">
+        <item>Student</item>
+        <item>Staff</item>
+    </string-array>
+    <string-array name="academic_year">
+        <item>Select your Academic year..</item>
+        <item>Year 1</item>
+        <item>Year 2</item>
+        <item>Year 3</item>
+        <item>Year 4</item>
+    </string-array>
+    <string-array name="department">
+        <item>Select your department..</item>
+        <item>Information Systems (IS)</item>
+        <item>Scientific Computing (SC)</item>
+        <item>Computer Science (CS)</item>
+        <item>Computer Systems (CSys)</item>
+        <item>BioInformatics (BIO)</item>
+        <item>Software Engineering (SWE)</item>
+    </string-array>
+    RoomsForVisualzed
+    <string-array name="landmarks">
+        <item>Faculty of Computer and Information Science</item>
+        <item>Faculty of Science</item>
+        <item>Faculty of Medicine</item>
+        <item>Faculty of Engineering</item>
+        <item>Ain Shams University Specialized Hospital</item>
+        <item>Faculty of Law</item>
+        <item>Faculty of Arts</item>
+        <item>Faculty of Alsun</item>
+        <item>Faculty of Commerce</item>
+        <item>Faculty of Dentistry</item>
+        <item>Faculty of Pharmacy</item>
+        <item>Faculty of Commerce Garage</item>
+    </string-array>
+
+
+    <string-array name="RoomsForVisualzed">
+        <item> "العميد"</item>
+        <item>"سكرتارية العميد"</item>
+        <item>"غرفة الاجتماعات"</item>
+        <item>"سكرتارية وكيل البيئة"</item>
+        <item> "مدير مركز الحساب العلمي"</item>
+        <item> "قاعة السيمنار"</item>
+        <item> "وكيل الكلية للدراسات العليا"</item>
+        <item> "د تيمور نظمي"</item>
+        <item> "أمين الكلية"</item>
+        <item> "رئيس قسم حسابات علمية"</item>
+        <item> "غرفة 115"</item>
+        <item>"وكيل الكلية لشئون البيئة"</item>
+        <item>"سكرتارية وكيل الكلية"</item>
+        <item> "سلم للدور الاول"</item>
+        <item>"حمام رجالي  و حمام حريمي"</item>
+        <item>"وكيل الكلية"</item>
+        <item> "البوفيه"</item>
+        <item>"حمام رجالي عند مكتب وكيل الكلية"</item>
+        <item>"أسانسير الدور الاول"</item>
+        <item>"سلم خلفي للدور الثاني"</item>
+
+
+    </string-array>
+
+    <string-array name="places">
+        <item>Dentistry</item>
+        <item>Law</item>
+        <item>Arts</item>
+        <item>Medicine</item>
+        <item>Sciences</item>
+        <item>Commerce</item>
+    </string-array>
+
+    <string name="title_activity_groups">GroupsActivity</string>
+    <string name="search">Search</string>
+    <string name="post">Post</string>
+    <string name="admins">Admins</string>
+    <string name="groups">Groups</string>
+    <string name="reset_pass_text">Enter your E-mail address below so we can send verification code and check your E-mail.</string>
+    <string name="title_activity_campus">Map</string>
+
+
+    <string name="nodey1">"سلم خلفي صعود لخلف مدرج سعيد عبد الوهاب"</string>
+    <string name="nodex1">"سلم لخلف سعيد"</string>
+
+    <string name="nodey2">"خلف مدرج سعيد عبد الوهاب وباب خلفي للمدرج"</string>
+    <string name="nodex2">"خلف مدرج سعيد عبدالوهاب"</string>
+
+    <string name="nodey3">"سلم للدور الثالث" </string>
+    <string name="nodex3"> "سلم للدور الثالث"</string>
+
+    <string name="nodey4">"غرفة 308 د رانيا الجوهري و دشيرين موسي و د هناء طلحة و دابراهيم فتحي معوض و د صفاء السيد" </string>
+    <string name="nodex4">"غرفة 308" </string>
+
+    <string name="nodey5">"غرفة 307 معمل هندسة البرمجيات و غرفة 301 د عبدالعزيز عبد المنعم و د صفية عباس و د غادة نصر و د عبير محمود" </string>
+    <string name="nodex5"> "غرفة 307"</string>
+
+    <string name="nodey6"> "غرفة 303 د هالة مشير وغرفة 302 وحدة ضمان الجودة"</string>
+    <string name="nodex6"> "غرفة 303 وغرفة 302"</string>
+
+
+    <string name="nodey7">"غرفة 304 ا.د مصطفي جاد الحق محمد و د ايمان شعبان" </string>
+    <string name="nodex7"> "دايمان شعبان"</string>
+
+    <string name="nodey8"> "مدرج ا.د محمد فهمي طلبة"</string>
+    <string name="nodex8">"مدرج فهمي طلبة" </string>
+
+    <string name="nodey9">"ا.دطارق غريب رئيس قسم نظم المعلومات" </string>
+    <string name="nodex9">"د طارق غريب" </string>
+
+    <string name="nodey10">"د هدي امين د شيرين راضي وحمام بالدور الثالث" </string>
+    <string name="nodex10">"د هدي امين" </string>
+
+    <string name="nodey11">"غرفة 210 معمل حاسبات 2 والشبكات غرفة 205" </string>
+    <string name="nodex11"> "معمل حاسبات 2"</string>
+
+    <string name="nodey12"> "غرفة 211 رئيس قسم نظم الحاسبات وغرفة 204 وحدة تكنولجيا المعلومات د خالد البهنسي"</string>
+    <string name="nodex12"> "رئيس قسم نظم الحاسبات"</string>
+
+    <string name="nodey13"> "غرفة 203 ا.د طه العريف وغرفة 202 ا.د عبدالبديع سالم"</string>
+    <string name="nodex13"> "أ.د طه العريف"</string>
+
+    <string name="nodey14">"معمل نظم المعلومات غرفة 213 وغرفة 201 ا.د علي الناعم و ا.د محمد السعيد عبده غنيمي" </string>
+    <string name="nodex14"> "معمل نظم المعلومات"</string>
+
+    <string name="nodey15">"غرفة 214 د دعاء حجازي و د سلمي حمدي و د منال طنطاوي و د هبة خالد" </string>
+    <string name="nodex15"> "د دعاء حجازي"</string>
+
+    <string name="nodey16"> "سلم للدور الثاني"</string>
+    <string name="nodex16"> "سلم للدور الثاني"</string>
+
+    <string name="nodey17"> "غرفة 215 رئيس قسم علوم الحاسب  ا.د السيد محمد الهربيطي"</string>
+    <string name="nodex17"> "رئيس قسم علوم الحاسب"</string>
+
+    <string name="nodey18"> "غرفة 216 وحمام بالدور الثاني"</string>
+    <string name="nodex18"> "غرفة 216"</string>
+
+    <string name="nodey19">"ا.د حسن حسن رمضان"</string>
+    <string name="nodex19">"أ.د حسن رمضان" </string>
+
+    <string name="nodey20"> "سلم خلفي للدور الثالث عند الاسانسير بالدور الثاني"</string>
+    <string name="nodex20"> "سلم خلفي للدور الثالث"</string>
+
+    <string name="nodey21"> "سلم صعود الي خلف مدرج فهمي طلبة"</string>
+    <string name="nodex21"> "سلم لخلف فهمي"</string>
+
+    <string name="nodey22">"خلف مدرج فهم طلبة وباب خلفي للمدرج"</string>
+    <string name="nodex22"> "خلف مدرج فهمي"</string>
+
+    <string name="nodey23"> "غرفة المعيدين"</string>
+    <string name="nodex23"> "غرفة المعيدين"</string>
+
+    <string name="nodey24"> "سلم للصعود لمدرج ا.د سعيد عبد الوهاب"</string>
+    <string name="nodex24"> "سلم لمدرج سعيد"</string>
+
+    <string name="nodey25">"مدرج ا.د سعيد عبد الوهاب" </string>
+    <string name="nodex25"> "مدرح سعيد عبدالوهاب"</string>
+
+    <string name="nodey26"> "ا.د محمد هاشم عبد العزيز و ا.د محمد عصام خليفة و ا.د مصطفي محمود عارف  و د شيرين عبد الحميد و د بسنت الباجوري"</string>
+    <string name="nodex26"> "د محمد هاشم"</string>
+
+    <string name="nodey27">"المجلة الدولية لعلوم الحاسبات الذكية والمعلومات و د محمد عبد المجيد و د دينا خطاب و د محمد مرعي  و د اسلام حجازي  و د ياسمين عفيفي و د نيفين عاطف" </string>
+    <string name="nodex27"> "د محمد مرعي"</string>
+
+
+    <string name="nodey29">"سلم خلفي للدور الثالث" </string>
+    <string name="nodex29"> "سلم خلفي للدور الثالث"</string>
+
+
+    <string name="nodey30">" باب 2 للبدروم خلفي عند الخزينة وسلم للدور الاول" </string>
+    <string name="nodex30"> "سلم للبدروم"</string>
+
+
+    <string name="nodey31"> " قسم هندسة البرمجيات وفصل 1و2 قسم تقنية المعلومات الحيوية"</string>
+    <string name="nodex31"> "قسم هندسة البرمجيات"</string>
+
+    <string name="nodey32">"منسق برنامج تقنية المعلومات الحيوية د رشا اسماعيل و فصل 3و4" </string>
+    <string name="nodex32"> "د رشا اسماعيل"</string>
+
+    <string name="nodey33"> "امين مركز الحساب العلمي غرفة رقم 102 و وكيل الكلية للدراسات العليا والبحوث 103"</string>
+    <string name="nodex33"> "غرفة 102"</string>
+
+    <string name="nodey34">"ا.د تيمور محمد نظمي غرفة 104 وامين الكلية غرفة 112" </string>
+    <string name="nodex34"> "د تيمور نظمي"</string>
+
+    <string name="nodey35">"غرفة 105 سكرتارية وكيل الكلية لشؤن البيئة و غرفة 111 العميد ا.د محمد اسماعيل رشدي و غرفة 110 سكرتارية عميد الكلية و غرفة 109 وكيل الكلية لشؤن الكلية و تنمية البيئة" </string>
+    <string name="nodex35"> "عميد الكلية"</string>
+
+    <string name="nodey36"> "غرفة 106 سكرتارية وكيل الكلية لشؤن التعليم والطلاب و حمام رجالي اعضاء هيئة التدريس"</string>
+    <string name="nodex36"> "سكرتارية وكيل الكلية"</string>
+
+    <string name="nodey37"> "غرفة 108 ا.د نجوي لطفي بدر وكيل الكلية لشؤن التعليم والطلاب"</string>
+    <string name="nodex37"> "د نجوي بدر وكيل الكلية"</string>
+
+    <string name="nodey38"> "سلم خلفي للدور الثاني عند الاسانسير"</string>
+    <string name="nodex38"> "سلم خلفي للدور الثاني"</string>
+
+    <string name="nodey39"> "سلم خلفي للدور الاول عند الاسانسير بالدور الارضي"</string>
+    <string name="nodex39"> "سلم خلفي للدور الاول"</string>
+
+
+    <string name="nodey41"> "سلم خلفي للدور الثالث عند الاسانسير بالدور الثاني"</string>
+    <string name="nodex41"> "سلم خلفي للدور الثالث"</string>
+
+    <string name="nodey42"> "الاسانسير بالدور الثاني"</string>
+    <string name="nodex42"> "اسانسير بالدور الثاني"</string>
+
+    <string name="nodey43">"معمل علوم الحاسب و سكرتارية قسم نظم الحاسبات غرفة 211" </string>
+    <string name="nodex43"> "معمل علوم الحاسب"</string>
+
+    <string name="nodey44"> "غرفة 206 و 207"</string>
+    <string name="nodex44"> "غرفة 206 و 207"</string>
+
+    <string name="nodey45"> "مدخل للصعود لمدرج ا.د سعيد عبد الوهاب"</string>
+    <string name="nodex45"> "مدخل للصعود لمدرج ا.د سعيد عبد الوهاب"</string>
+
+    <string name="nodey46"> "Book store"</string>
+    <string name="nodex46"> "Book store"</string>
+
+    <string name="nodey47">"قاعة تمارين 2 و معمل حاسبات 3" </string>
+    <string name="nodex47"> "قاعة تمارين 2"</string>
+
+    <string name="nodey48"> "سلم للدور الاول من عند الباب الرئيسي دخول"</string>
+    <string name="nodex48"> "سلم للدور الاول"</string>
+
+    <string name="nodey49"> "قاعة المؤتمرات غرفة رقم 113 ومدير مركز الحساب العلمي غرفة رقم 101 د محمد حسن عبدالعزيز"</string>
+    <string name="nodex49"> "قاعة المؤتمرات"</string>
+
+    <string name="nodey50"> "د هويدا عبدالفتاح قسم الحسابات العلمية"</string>
+    <string name="nodex50"> "رئيس قسم الحسابات العليمة"</string>
+
+
+    <string name="nodey51"> "غرفة 115"</string>
+    <string name="nodex51"> "غرفة 115"</string>
+
+    <string name="nodey52">"حمام بالدور الاول" </string>
+    <string name="nodex52"> "حمام بالدور الاول"</string>
+
+
+    <string name="nodey53"> "G13  مركز الحساب العلمي التدويب و صالة أ"</string>
+    <string name="nodex53"> "مركز الحساب العلمي التدريب"</string>
+
+    <string name="nodey54">"الباب الرئيسي دخول للكلية" </string>
+    <string name="nodex54"> "الباب الرئيسي"</string>
+
+
+    <string name="nodey55"> "G15  مكتب د محمد فهمي طلبة"</string>
+    <string name="nodex55"> "د فهمي طلبة"</string>
+
+    <string name="nodey56"> "الكافتيريا الدور الارضي"</string>
+    <string name="nodex56"> "الكافتيريا"</string>
+
+    <string name="nodey57"> "حمام بالدور الارضي"</string>
+    <string name="nodex57"> "حمام بالدور الارضي"</string>
+
+
+    <string name="nodey58">"باب خلفي للجنينة عند الكافتيريا" </string>
+    <string name="nodex58"> "باب الجنينة"</string>
+
+
+    <string name="nodey59"> "مصلي للسيدات بالجنينة"</string>
+    <string name="nodex59"> "مصلي للسيدات"</string>
+
+
+    <string name="nodey60"> "B18  class5"</string>
+    <string name="nodex60"> "B18  class5"</string>
+
+    <string name="nodey61">"B13  class6" </string>
+    <string name="nodex61"> "B13  class6"</string>
+
+    <string name="nodey62"> "B14  B15  B16  B17  ادراة المخازن بالبدروم"</string>
+    <string name="nodex62"> "ادارة المخازن"</string>
+
+
+    <string name="nodey63">"G08  G12  مشروع المرتبات" </string>
+    <string name="nodex63"> "مشروع المرتبات"</string>
+
+
+    <string name="nodey64">"G02  G03  مركز الحساب العلمي الحسابات" </string>
+    <string name="nodex64">"مركز الحساب العلمي الحسابات" </string>
+
+    <string name="nodey65"> "G19 الخزينة للدفع"</string>
+    <string name="nodex65"> "الخزنية للدفع"</string>
+
+
+    <string name="nodey66">"لاب حسابات علمية" </string>
+    <string name="nodex66"> "لاب حسابات علمية"</string>
+
+
+    <string name="nodey67"> "قاعة مجلس الكلية G18"</string>
+    <string name="nodex67"> "قاعة مجلس الكلية"</string>
+
+
+    <string name="nodey68"> "باب2 دخول للكلية من ناحية علوم"</string>
+    <string name="nodex68"> "باب دخول للكلية"</string>
+
+
+    <string name="nodey69">"باب خلفي عند معمل نظم الحاسبات الجنينة" </string>
+    <string name="nodex69"> "باب الجنينة عند الاسانسير "</string>
+
+
+    <string name="nodey70"> "اسانسير الدور الارضي"</string>
+    <string name="nodex70"> "اسانسير بالدور الارضي"</string>
+
+
+    <string name="nodey71"> "السلم للبدروم عن معمل نظم الحاسبات"</string>
+    <string name="nodex71"> "سلم للبدروم عند باب الجنينة"</string>
+
+
+    <string name="nodey72"> "قسم الصيانة الدور السفلي B12"</string>
+    <string name="nodex72"> "قسم الصيانة"</string>
+
+
+    <string name="nodey73"> "Robotics lab B11 B01"</string>
+    <string name="nodex73"> "Robotics lab"</string>
+
+
+    <string name="nodey74"> "مخزن الكلية B10 B09"</string>
+    <string name="nodex74"> "مخزن الكلية"</string>
+
+
+    <string name="nodey75"> "B08 B02 B03 Networking Lab"</string>
+    <string name="nodex75"> "Networking lab"</string>
+
+    <string name="nodey76"> "معمل نظم الحاسبات G10 G06 G07 و قسم صيانة الاجهزة الدور الارضي"</string>
+    <string name="nodex76"> "معمل نظم الحاسبات"</string>
+
+    <string name="nodey77"> "G11 مركز الحساب العلمي صالة ب"</string>
+    <string name="nodex77"> "مركز الحساب العلمي صالة ب"</string>
+
+    <string name="nodey79"> "الجنينة"</string>
+    <string name="nodex79"> "الجنينة"</string>
+
+    <string name="nodey78"> "Extension"</string>
+    <string name="nodex78"> "Extension"</string>
+
+
+    <string-array name="nodesx">
+        <item>@string/nodex1</item>
+        <item>@string/nodex2</item>
+        <item>@string/nodex3</item>
+        <item>@string/nodex4</item>
+        <item>@string/nodex5</item>
+        <item>@string/nodex6</item>
+        <item>@string/nodex7</item>
+        <item>@string/nodex8</item>
+        <item>@string/nodex9</item>
+        <item>@string/nodex10</item>
+
+        <item>@string/nodex11</item>
+        <item>@string/nodex12</item>
+        <item>@string/nodex13</item>
+        <item>@string/nodex14</item>
+        <item>@string/nodex15</item>
+        <item>@string/nodex16</item>
+        <item>@string/nodex17</item>
+        <item>@string/nodex18</item>
+        <item>@string/nodex19</item>
+        <item>@string/nodex20</item>
+
+
+        <item>@string/nodex21</item>
+        <item>@string/nodex22</item>
+        <item>@string/nodex23</item>
+        <item>@string/nodex24</item>
+        <item>@string/nodex25</item>
+        <item>@string/nodex26</item>
+        <item>@string/nodex27</item>
+
+        <item>@string/nodex29</item>
+        <item>@string/nodex30</item>
+
+
+        <item>@string/nodex31</item>
+        <item>@string/nodex32</item>
+        <item>@string/nodex33</item>
+        <item>@string/nodex34</item>
+        <item>@string/nodex35</item>
+        <item>@string/nodex36</item>
+        <item>@string/nodex37</item>
+        <item>@string/nodex38</item>
+        <item>@string/nodex39</item>
+
+
+        <item>@string/nodex41</item>
+        <item>@string/nodex42</item>
+        <item>@string/nodex43</item>
+        <item>@string/nodex44</item>
+        <item>@string/nodex45</item>
+        <item>@string/nodex46</item>
+        <item>@string/nodex47</item>
+        <item>@string/nodex48</item>
+        <item>@string/nodex49</item>
+        <item>@string/nodex50</item>
+
+
+        <item>@string/nodex51</item>
+        <item>@string/nodex52</item>
+        <item>@string/nodex53</item>
+        <item>@string/nodex54</item>
+        <item>@string/nodex55</item>
+        <item>@string/nodex56</item>
+        <item>@string/nodex57</item>
+        <item>@string/nodex58</item>
+        <item>@string/nodex59</item>
+        <item>@string/nodex60</item>
+
+
+        <item>@string/nodex61</item>
+        <item>@string/nodex62</item>
+        <item>@string/nodex63</item>
+        <item>@string/nodex64</item>
+        <item>@string/nodex65</item>
+        <item>@string/nodex66</item>
+        <item>@string/nodex67</item>
+        <item>@string/nodex68</item>
+        <item>@string/nodex69</item>
+        <item>@string/nodex70</item>
+
+
+        <item>@string/nodex71</item>
+        <item>@string/nodex72</item>
+        <item>@string/nodex73</item>
+        <item>@string/nodex74</item>
+        <item>@string/nodex75</item>
+        <item>@string/nodex76</item>
+        <item>@string/nodex77</item>
+        <item>@string/nodex78</item>
+
+    </string-array>
+
+
+    <string-array name="nodesy">
+        <item>@string/nodey1</item>
+        <item>@string/nodey2</item>
+        <item>@string/nodey3</item>
+        <item>@string/nodey4</item>
+        <item>@string/nodey5</item>
+        <item>@string/nodey6</item>
+        <item>@string/nodey7</item>
+        <item>@string/nodey8</item>
+        <item>@string/nodey9</item>
+        <item>@string/nodey10</item>
+
+        <item>@string/nodey11</item>
+        <item>@string/nodey12</item>
+        <item>@string/nodey13</item>
+        <item>@string/nodey14</item>
+        <item>@string/nodey15</item>
+        <item>@string/nodey16</item>
+        <item>@string/nodey17</item>
+        <item>@string/nodey18</item>
+        <item>@string/nodey19</item>
+        <item>@string/nodey20</item>
+
+
+        <item>@string/nodey21</item>
+        <item>@string/nodey22</item>
+        <item>@string/nodey23</item>
+        <item>@string/nodey24</item>
+        <item>@string/nodey25</item>
+        <item>@string/nodey26</item>
+        <item>@string/nodey27</item>
+
+        <item>@string/nodey29</item>
+        <item>@string/nodey30</item>
+
+
+        <item>@string/nodey31</item>
+        <item>@string/nodey32</item>
+        <item>@string/nodey33</item>
+        <item>@string/nodey34</item>
+        <item>@string/nodey35</item>
+        <item>@string/nodey36</item>
+        <item>@string/nodey37</item>
+        <item>@string/nodey38</item>
+        <item>@string/nodey39</item>
+
+
+        <item>@string/nodey41</item>
+        <item>@string/nodey42</item>
+        <item>@string/nodey43</item>
+        <item>@string/nodey44</item>
+        <item>@string/nodey45</item>
+        <item>@string/nodey46</item>
+        <item>@string/nodey47</item>
+        <item>@string/nodey48</item>
+        <item>@string/nodey49</item>
+        <item>@string/nodey50</item>
+
+
+        <item>@string/nodey51</item>
+        <item>@string/nodey52</item>
+        <item>@string/nodey53</item>
+        <item>@string/nodey54</item>
+        <item>@string/nodey55</item>
+        <item>@string/nodey56</item>
+        <item>@string/nodey57</item>
+        <item>@string/nodey58</item>
+        <item>@string/nodey59</item>
+        <item>@string/nodey60</item>
+
+
+        <item>@string/nodey61</item>
+        <item>@string/nodey62</item>
+        <item>@string/nodey63</item>
+        <item>@string/nodey64</item>
+        <item>@string/nodey65</item>
+        <item>@string/nodey66</item>
+        <item>@string/nodey67</item>
+        <item>@string/nodey68</item>
+        <item>@string/nodey69</item>
+        <item>@string/nodey70</item>
+
+
+        <item>@string/nodey71</item>
+        <item>@string/nodey72</item>
+        <item>@string/nodey73</item>
+        <item>@string/nodey74</item>
+        <item>@string/nodey75</item>
+        <item>@string/nodey76</item>
+        <item>@string/nodey77</item>
+        <item>@string/nodey78</item>
+
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

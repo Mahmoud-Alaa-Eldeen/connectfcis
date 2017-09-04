@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_group_members"
+            android:icon="@mipmap/ic_group_white_24dp"
+            android:title="Members" />
+        <item
+            android:id="@+id/nav_find_mate"
+            android:icon="@mipmap/ic_search_white_24dp"
+            android:title="Find Mate" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/ic_settings_white_24dp"
+            android:title="Manage" />
+        <item
+            android:id="@+id/nav_admins"
+            android:icon="@mipmap/ic_person_white_24dp"
+            android:title="@string/admins" />
+        <item
+            android:id="@+id/nav_leave_group"
+            android:icon="@mipmap/ic_group_white_24dp"
+            android:title="Leave Group" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
