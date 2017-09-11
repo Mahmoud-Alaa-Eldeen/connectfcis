@@ -4,7 +4,6 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 
 import android.util.Log;
 import android.view.ContextMenu;
@@ -32,6 +31,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.khaledahmed.connectfcis.AdapterClasses.EventAdapter;
 import com.khaledahmed.connectfcis.ParsingKey.EventKies;
+import com.khaledahmed.connectfcis.Routing.IndoorRouting.TextualRoutingActivity;
 import com.khaledahmed.connectfcis.Structure.Event;
 import com.khaledahmed.connectfcis.Routing.OutdoorRouting.MapsActivity;
 
@@ -41,7 +41,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class HomeActivity extends AppCompatActivity
@@ -147,7 +146,7 @@ public class HomeActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_route_indoor) {
-            startActivity(new Intent(getApplicationContext(), RoutingActivity.class));
+            startActivity(new Intent(getApplicationContext(), TextualRoutingActivity.class));
         } else if (id == R.id.nav_route_outdoor) {
             startActivity(new Intent(getApplicationContext(), MapsActivity.class));
         } else if (id == R.id.nav_my_profile) {

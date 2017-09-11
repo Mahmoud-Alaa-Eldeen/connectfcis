@@ -1,10 +1,12 @@
-package com.khaledahmed.connectfcis;
+package com.khaledahmed.connectfcis.Routing.IndoorRouting;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class IndoorPathActivity extends AppCompatActivity {
+import com.khaledahmed.connectfcis.R;
+
+public class ShowIndoorPathActivity extends AppCompatActivity {
 
     private TextView pathText;
 

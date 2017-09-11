@@ -1,4 +1,4 @@
-package com.khaledahmed.connectfcis.Routing.IndoorRouting;
+package com.khaledahmed.connectfcis.Routing.IndoorRouting.IndoorRoutingAlgorithm;
 
 import java.util.HashMap;
 import java.util.Map;

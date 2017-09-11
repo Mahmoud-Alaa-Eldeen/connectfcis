@@ -1,8 +1,9 @@
-package com.khaledahmed.connectfcis;
+package com.khaledahmed.connectfcis.Routing.IndoorRouting;
 /*
-Build Spinner  and get user input.then
-send to visualized_Idoor .
+*get the src & dest rooms selected
+*send to DrawAndShowVisualized_Path to get path and draw in college map image.
 */
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,14 +11,13 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
 
-import com.khaledahmed.connectfcis.Utilities.Visualized_Indoor;
+import com.khaledahmed.connectfcis.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class VisualizedRouting extends AppCompatActivity {
+public class VisualizedRoutingActivity extends AppCompatActivity {
 
     private Spinner source_spinner;
     private Spinner destination_spinner;
@@ -47,17 +47,14 @@ public class VisualizedRouting extends AppCompatActivity {
                 String END = destination_spinner.getSelectedItem().toString();
 
 
-                intent = new Intent(getApplicationContext(), Visualized_Indoor.class);
+                intent = new Intent(getApplicationContext(), DrawAndShowVisualized_Path.class);
                 intent.removeExtra("srcAndDest");
-                intent.putExtra("srcAndDest",START+","+END );
+                intent.putExtra("srcAndDest", START + "," + END);
                 startActivity(intent);
 
 
             }
         });
-
-
-
 
 
     }

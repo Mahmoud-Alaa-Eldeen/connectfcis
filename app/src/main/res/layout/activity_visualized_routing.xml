@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.khaledahmed.connectfcis.VisualizedRouting">
+    tools:context="com.khaledahmed.connectfcis.Routing.IndoorRouting.VisualizedRoutingActivity">
     >
     <RelativeLayout
         android:layout_width="match_parent"
