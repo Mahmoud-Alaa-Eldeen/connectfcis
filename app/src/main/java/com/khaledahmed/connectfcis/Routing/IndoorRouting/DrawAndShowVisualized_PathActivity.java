@@ -22,7 +22,7 @@ import com.khaledahmed.connectfcis.Routing.IndoorRouting.IndoorRoutingAlgorithm.
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class DrawAndShowVisualized_Path extends AppCompatActivity {
+public class DrawAndShowVisualized_PathActivity extends AppCompatActivity {
 
 
     HashMap<String, Integer> map; // to hold all first floor rooms as (name, pixel)
@@ -72,7 +72,7 @@ public class DrawAndShowVisualized_Path extends AppCompatActivity {
             Log.d("dest", String.valueOf(map.get(tmpDest)));
 
 
-            Toast.makeText(DrawAndShowVisualized_Path.this, "You are here !", Toast.LENGTH_LONG).show();
+            Toast.makeText(DrawAndShowVisualized_PathActivity.this, "You are here !", Toast.LENGTH_LONG).show();
             return;
         }
 

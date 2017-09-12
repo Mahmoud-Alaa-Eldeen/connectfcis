@@ -58,7 +58,7 @@ public class TextualRoutingActivity extends AppCompatActivity {
                 // create Graph instance with array of edges bet. rooms
                 Graph g = new Graph(edgesArray);
 
-                
+
                 String destinationRoom = destinationRooms_spinner.getSelectedItem().toString();
                 String src_Room;
                 String dest_Room;

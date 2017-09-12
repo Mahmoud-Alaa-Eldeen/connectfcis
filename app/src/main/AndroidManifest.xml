@@ -61,7 +61,7 @@
             android:value="@string/google_maps_key" />
 
         <activity android:name=".Routing.IndoorRouting.ShowIndoorPathActivity" />
-        <activity android:name=".Routing.IndoorRouting.DrawAndShowVisualized_Path" />
+        <activity android:name=".Routing.IndoorRouting.DrawAndShowVisualized_PathActivity" />
         <activity android:name=".Routing.IndoorRouting.VisualizedRoutingActivity" />
         <activity android:name=".Comments" />
         <activity

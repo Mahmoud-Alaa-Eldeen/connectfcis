@@ -1,7 +1,7 @@
 package com.khaledahmed.connectfcis.Routing.IndoorRouting;
 /*
-*get the src & dest rooms selected
-*send to DrawAndShowVisualized_Path to get path and draw in college map image.
+*get the src & dest rooms user selected
+*send to DrawAndShowVisualized_PathActivity to get path and draw on college map image.
 */
 
 import android.content.Intent;
@@ -14,16 +14,12 @@ import android.widget.Spinner;
 
 import com.khaledahmed.connectfcis.R;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class VisualizedRoutingActivity extends AppCompatActivity {
 
     private Spinner source_spinner;
     private Spinner destination_spinner;
-    private Button navigate_button;
+
     private Intent intent;
-    private List<String> nodes = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,23 +29,26 @@ public class VisualizedRoutingActivity extends AppCompatActivity {
 
         source_spinner = (Spinner) findViewById(R.id.source_spinner2);
         destination_spinner = (Spinner) findViewById(R.id.destination_spinner2);
-        navigate_button = (Button) findViewById(R.id.navigate2);
+        Button showPath = (Button) findViewById(R.id.navigate2);
 
+        //configure adapter for src & dest spinner
+        //get array from xml for first floor rooms
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.RoomsForVisualzed));
         source_spinner.setAdapter(adapter);
         destination_spinner.setAdapter(adapter);
 
-        navigate_button.setOnClickListener(new View.OnClickListener() {
+        showPath.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                String START = source_spinner.getSelectedItem().toString();
-                String END = destination_spinner.getSelectedItem().toString();
+                String srcRoom = source_spinner.getSelectedItem().toString();
+                String destRoom = destination_spinner.getSelectedItem().toString();
 
 
-                intent = new Intent(getApplicationContext(), DrawAndShowVisualized_Path.class);
+                // send src & dest room to DrawAndShowVisualized_PathActivity
+                intent = new Intent(getApplicationContext(), DrawAndShowVisualized_PathActivity.class);
                 intent.removeExtra("srcAndDest");
-                intent.putExtra("srcAndDest", START + "," + END);
+                intent.putExtra("srcAndDest", srcRoom + "," + destRoom);
                 startActivity(intent);
 
 
