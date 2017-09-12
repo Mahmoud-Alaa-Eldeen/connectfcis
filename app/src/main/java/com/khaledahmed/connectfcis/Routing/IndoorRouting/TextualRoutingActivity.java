@@ -246,7 +246,7 @@ public class TextualRoutingActivity extends AppCompatActivity {
                 ENDsum = some_array[destSelecIndex];
 
                 g.dijkstra(STARTsum);
-                g.printPath(ENDsum);
+                g.findPath(ENDsum);
                 //g.printAllPaths();
                 //Graph.str1;
 

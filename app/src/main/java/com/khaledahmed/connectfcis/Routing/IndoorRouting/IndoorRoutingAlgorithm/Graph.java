@@ -149,7 +149,7 @@ public class Graph {
     /**
      * Prints a path from the source to the specified vertex
      */
-    public void printPath(String endName) {
+    public void findPath(String endName) {
         if (!graph.containsKey(endName)) {
             // System.err.printf("Graph doesn't contain end vertex \"%s\"\n", endName);
             str1 = "Graph doesn't contain end vertex \"%s\"\n" + endName;
