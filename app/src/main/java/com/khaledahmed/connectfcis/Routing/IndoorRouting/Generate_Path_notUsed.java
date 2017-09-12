@@ -4,7 +4,7 @@ import android.graphics.Bitmap;
 
 /**
  * Created by mahmo on 4/18/2017.
- * Now is useless, may be removed.
+ * Not used. draw a line bet. 2 pixels
  */
 
 public class Generate_Path_notUsed {

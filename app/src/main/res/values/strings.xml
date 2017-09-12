@@ -352,7 +352,7 @@
     <string name="nodex78"> "Extension"</string>
 
 
-    <string-array name="nodesx">
+    <string-array name="nodesX">
         <item>@string/nodex1</item>
         <item>@string/nodex2</item>
         <item>@string/nodex3</item>
@@ -447,7 +447,7 @@
     </string-array>
 
 
-    <string-array name="nodesy">
+    <string-array name="nodesY">
         <item>@string/nodey1</item>
         <item>@string/nodey2</item>
         <item>@string/nodey3</item>
