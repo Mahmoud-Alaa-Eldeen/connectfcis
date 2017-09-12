@@ -1,8 +1,10 @@
-package com.khaledahmed.connectfcis;
+package com.khaledahmed.connectfcis.Groups;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
+
+import com.khaledahmed.connectfcis.R;
 
 public class AllGroupsActivity extends AppCompatActivity {
 

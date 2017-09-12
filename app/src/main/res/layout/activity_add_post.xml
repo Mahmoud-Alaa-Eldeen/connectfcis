@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.khaledahmed.connectfcis.AddPostActivity">
+    tools:context="com.khaledahmed.connectfcis.Groups.AddPostActivity">
 
     <ImageButton
         android:id="@+id/imageButton"

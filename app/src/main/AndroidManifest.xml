@@ -39,14 +39,14 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity
-            android:name=".GroupActivity"
+            android:name=".Groups.GroupActivity"
             android:label="@string/title_activity_groups"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Routing.IndoorRouting.TextualRoutingActivity" />
         <activity android:name=".UserProfileActivity" />
-        <activity android:name=".AllGroupsActivity" />
+        <activity android:name=".Groups.AllGroupsActivity" />
         <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".AddPostActivity" />
+        <activity android:name=".Groups.AddPostActivity" />
         <activity android:name=".EditProfileActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

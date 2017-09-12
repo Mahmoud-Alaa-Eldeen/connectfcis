@@ -47,12 +47,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private MarkerOptions landMarks;
     private LatLng fcis;
     private LocationManager locationManager;
-    private MyLocationListener locationListener;
     private LatLng position = null;
-    private RadioButton srcDestButton;
-    private RadioButton gpsDestButton;
     private ImageButton locationButton;
-    private ImageButton setMarkersBtn;
     private Spinner destinationSpinner;
 
     private LatLng currentLocation;
@@ -77,16 +73,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-//        srcDestButton = (RadioButton) findViewById(R.id.src_to_dest_rb);
-//        gpsDestButton = (RadioButton) findViewById(R.id.gps_to_dest_rb);
         locationButton = (ImageButton) findViewById(R.id.myLocation_button);
-        setMarkersBtn = (ImageButton) findViewById(R.id.setMarkersBtn);
-        locationListener = new MyLocationListener(getApplicationContext());
+        ImageButton setMarkersBtn = (ImageButton) findViewById(R.id.setMarkersBtn);
+        MyLocationListener locationListener = new MyLocationListener(getApplicationContext());
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         destinationSpinner = (Spinner) findViewById(R.id.dests);
 
@@ -97,9 +92,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         }
 
+        // set fcis as current location on map
         fcis = new LatLng(30.078222, 31.284938);
         currentLocation = fcis;
 
+        // add markers on buildings within campus
         setMarkersBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,15 +108,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 }
             }
         });
+
         destinationSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
+                // on selecting a dest. building, clear map, and
                 if (markerPoints.size() > 1) {
                     markerPoints.clear();
                     mMap.clear();
                 }
 
+                // get selected dest. from spinner
                 String destName = destinationSpinner.getSelectedItem().toString();
                 LatLng latLng = null;
                 switch (destName) {
@@ -149,10 +149,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 // Creating MarkerOptions
                 MarkerOptions options = new MarkerOptions();
 
-                // Setting the position of the marker
+                // Setting the position of the marker to the dest. selected
                 options.position(latLng);
 
                 if (markerPoints.size() == 1) {
+                    // set icon for the marker and color
                     options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
                 } else if (markerPoints.size() == 2) {
                     options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW));
@@ -165,6 +166,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 if (markerPoints.size() >= 2) {
                     //LatLng origin = (LatLng) markerPoints.get(0);
                     LatLng origin = currentLocation;
+                    // get dest latlng
                     LatLng dest = (LatLng) markerPoints.get(1);
 
                     if (markerPoints.size() == 1) {

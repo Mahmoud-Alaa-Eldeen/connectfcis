@@ -11,13 +11,13 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by anupamchugh on 27/11/15.
+ * Created by khaled ahmed on 27/11/15.
  */
 
 public class DirectionsJSONParser {
 
     /**
-     * Receives a JSONObject and returns a list of lists containing latitude and longitude
+     * Receives a JSONObject, returns a list of lists containing latitude and longitude
      */
     public List<List<HashMap<String, String>>> parse(JSONObject jObject) {
 
