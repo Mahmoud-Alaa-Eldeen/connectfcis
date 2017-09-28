@@ -8,8 +8,8 @@ Demo: https://goo.gl/HLhsm7
 
 
 The admin panel for accounts management, creating groups and events:
-
 Demo: https://goo.gl/LgyGik
+
 Github: https://github.com/Mahmoud-Alaa-Eldeen/AdminPanel
 
 
